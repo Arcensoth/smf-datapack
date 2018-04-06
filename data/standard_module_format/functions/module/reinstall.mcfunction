@@ -1,0 +1,4 @@
+# standard_module_format:module/reinstall
+
+function standard_module_format:module/uninstall
+function standard_module_format:module/install
