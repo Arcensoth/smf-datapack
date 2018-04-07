@@ -1,3 +1,6 @@
+# v0.0.4-dev
+- Fix namespace
+
 # v0.0.3
 - Change naming scheme from `Standard Module Format` to `SMF Template` for clarification purposes
     - Change namespace from `standard_module_format` to `smf_template`
