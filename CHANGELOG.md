@@ -1,4 +1,4 @@
-# v0.0.2-dev
+# v0.0.2
 - Use `v` to denote version where appropriate
 - Dedicate a separate function to setting version scores
 
