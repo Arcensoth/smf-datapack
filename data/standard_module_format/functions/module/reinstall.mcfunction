@@ -1,4 +1,4 @@
-# standard_module_format:module/reinstall
+# smf_template:module/reinstall
 
-function standard_module_format:module/uninstall
-function standard_module_format:module/install
+function smf_template:module/uninstall
+function smf_template:module/install

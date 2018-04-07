@@ -1,5 +1,5 @@
 {
     "values": [
-        "standard_module_format:module/api/tick"
+        "smf_template:module/api/tick"
     ]
 }

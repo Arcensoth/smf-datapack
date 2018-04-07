@@ -1,5 +1,5 @@
-# standard_module_format:module/version
+# smf_template:module/version
 
-scoreboard players set $vmajor smf_module 0
-scoreboard players set $vminor smf_module 0
-scoreboard players set $vpatch smf_module 2
+scoreboard players set $vmajor smft_module 0
+scoreboard players set $vminor smft_module 0
+scoreboard players set $vpatch smft_module 2

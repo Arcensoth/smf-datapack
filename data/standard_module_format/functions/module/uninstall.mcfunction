@@ -1,8 +1,8 @@
-# standard_module_format:module/uninstall
+# smf_template:module/uninstall
 
-scoreboard objectives remove smf_module
+scoreboard objectives remove smft_module
 
-function standard_module_format:module/api/teardown
+function smf_template:module/api/teardown
 
-tellraw @s [{"text":"[Standard Module Format]", "color": "aqua"}, {"text": " Module uninstalled.", "color": "white"}]
+tellraw @s [{"text":"[SMF Template]", "color": "aqua"}, {"text": " Module uninstalled.", "color": "white"}]
 playsound minecraft:entity.player.levelup player @s ~ ~ ~ 1 2 0.5

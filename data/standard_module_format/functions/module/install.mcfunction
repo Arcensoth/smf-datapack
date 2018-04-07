@@ -1,13 +1,13 @@
-# standard_module_format:module/install
+# smf_template:module/install
 
-scoreboard objectives add smf_module dummy
-scoreboard players set $installed smf_module 1
+scoreboard objectives add smft_module dummy
+scoreboard players set $installed smft_module 1
 
-function standard_module_format:module/version
+function smf_template:module/version
 
-function standard_module_format:module/api/setup
+function smf_template:module/api/setup
 
-tellraw @s [{"text":"[Standard Module Format]", "color": "aqua"}, {"text": " Module ", "color": "white"}, {"text": "v", "color": "yellow", "extra": [{"score": {"name": "$vmajor", "objective": "smf_module"}}, {"text": "."}, {"score": {"name": "$vminor", "objective": "smf_module"}}, {"text": "."}, {"score": {"name": "$vpatch", "objective": "smf_module"}}]}, {"text": " installed!", "color": "white"}]
+tellraw @s [{"text":"[SMF Template]", "color": "aqua"}, {"text": " Module ", "color": "white"}, {"text": "v", "color": "yellow", "extra": [{"score": {"name": "$vmajor", "objective": "smft_module"}}, {"text": "."}, {"score": {"name": "$vminor", "objective": "smft_module"}}, {"text": "."}, {"score": {"name": "$vpatch", "objective": "smft_module"}}]}, {"text": " installed!", "color": "white"}]
 playsound minecraft:entity.player.levelup player @s ~ ~ ~ 1 2 0.5
 
-function standard_module_format:module/validate
+function smf_template:module/validate
