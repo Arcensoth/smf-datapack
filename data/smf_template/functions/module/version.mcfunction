@@ -2,4 +2,4 @@
 
 scoreboard players set $vmajor smft_module 0
 scoreboard players set $vminor smft_module 0
-scoreboard players set $vpatch smft_module 3
+scoreboard players set $vpatch smft_module 4

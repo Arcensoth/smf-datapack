@@ -1,4 +1,4 @@
-# v0.0.4-dev
+# v0.0.4
 - Fix namespace
 
 # v0.0.3
