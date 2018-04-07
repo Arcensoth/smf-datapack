@@ -1,4 +1,4 @@
-# v0.0.3-dev
+# v0.0.3
 - Change naming scheme from `Standard Module Format` to `SMF Template` for clarification purposes
     - Change namespace from `standard_module_format` to `smf_template`
     - Change prefix from `smf` to `smft`
