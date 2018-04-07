@@ -7,7 +7,7 @@ function standard_module_format:module/version
 
 function standard_module_format:module/api/setup
 
-tellraw @s [{"text":"[Standard Module Format]", "color": "aqua"}, {"text": " Module version ", "color": "white"}, {"text": "v", "color": "yellow", "extra": [{"score": {"name": "$vmajor", "objective": "smf_module"}}, {"text": "."}, {"score": {"name": "$vminor", "objective": "smf_module"}}, {"text": "."}, {"score": {"name": "$vpatch", "objective": "smf_module"}}]}, {"text": " installed!", "color": "white"}]
+tellraw @s [{"text":"[Standard Module Format]", "color": "aqua"}, {"text": " Module ", "color": "white"}, {"text": "v", "color": "yellow", "extra": [{"score": {"name": "$vmajor", "objective": "smf_module"}}, {"text": "."}, {"score": {"name": "$vminor", "objective": "smf_module"}}, {"text": "."}, {"score": {"name": "$vpatch", "objective": "smf_module"}}]}, {"text": " installed!", "color": "white"}]
 playsound minecraft:entity.player.levelup player @s ~ ~ ~ 1 2 0.5
 
 function standard_module_format:module/validate
