@@ -1,4 +1,4 @@
-# v0.1.0-dev
+# v0.1.0
 - Use SMF v0.1.0
 - First minor release with a complete interface
 
