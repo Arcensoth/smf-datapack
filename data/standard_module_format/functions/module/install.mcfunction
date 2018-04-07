@@ -2,9 +2,8 @@
 
 scoreboard objectives add smf_module dummy
 scoreboard players set $installed smf_module 1
-scoreboard players set $vmajor smf_module 0
-scoreboard players set $vminor smf_module 0
-scoreboard players set $vpatch smf_module 0
+
+function standard_module_format:module/version
 
 function standard_module_format:module/api/setup
 
