@@ -1,3 +1,7 @@
+# v0.1.0-dev
+- Use SMF v0.1.0
+- First minor release with a complete interface
+
 # v0.0.4
 - Fix namespace
 
