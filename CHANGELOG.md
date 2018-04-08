@@ -1,5 +1,5 @@
-# v0.1.1-dev
-- Use SMF v0.1.1
+# v0.2.0
+- Use SMF v0.2.0
 - Add a fourth version component to denote dev builds
 
 # v0.1.0
