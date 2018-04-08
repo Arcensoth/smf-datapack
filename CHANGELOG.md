@@ -1,3 +1,7 @@
+# v0.1.1-dev
+- Use SMF v0.1.1
+- Add a fourth version component to denote dev builds
+
 # v0.1.0
 - Use SMF v0.1.0
 - First minor release with a complete interface
