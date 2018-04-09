@@ -1,4 +1,4 @@
-# v0.4.0-dev
+# v0.4.0
 - Use SMF v0.4.0
 - Implement `module/list` function to list module version and installation status
     - Include `#smf:hooks/list` event hook to list all modules
