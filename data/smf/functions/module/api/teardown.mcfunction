@@ -4,3 +4,5 @@
 #   - Removing scoreboard objectives and teams.
 #   - Killing persistent entities.
 #   - Removing bossbars.
+
+scoreboard objectives remove smf_temp

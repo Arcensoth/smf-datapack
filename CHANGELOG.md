@@ -1,3 +1,14 @@
+# v0.4.0-dev
+- Use SMF v0.4.0
+- Implement `module/list` function to list module version and installation status
+    - Include `#smf:hooks/list` event hook to list all modules
+- Implement `module/scan` function to scan module for any problems
+    - Include `#smf:hooks/scan` event hook to scan all modules
+- Implement `module/sync` function to check if version of active module matches installed module
+- Introduce `smf.admin` entity tag for appointed players to receive relevant SMF messages
+- Distinguish between version of active module and installed module
+- Display a random splash message on reload
+
 # v0.3.0
 - Use SMF v0.3.0
 - Change naming scheme (again) from `SMF Template` to `SMF` to implement core utilities under a suitable namespace

@@ -5,12 +5,15 @@ scoreboard players set $installed smf_module 1
 
 function smf:module/version
 
+scoreboard players operation $vmajor smf_module = $vmajor smf_temp
+scoreboard players operation $vminor smf_module = $vminor smf_temp
+scoreboard players operation $vpatch smf_module = $vpatch smf_temp
+scoreboard players operation $vdev smf_module = $vdev smf_temp
+
 function smf:module/api/setup
 
-tellraw @s [{"text":"[SMF]", "color": "aqua"}, {"text": " Module ", "color": "white"}, {"text": "v", "color": "yellow", "extra": [{"score": {"name": "$vmajor", "objective": "smf_module"}}, {"text": "."}, {"score": {"name": "$vminor", "objective": "smf_module"}}, {"text": "."}, {"score": {"name": "$vpatch", "objective": "smf_module"}}]}, {"text": " installed!", "color": "white"}]
-
-execute if score $vdev smf_module matches 1.. run tellraw @s [{"text":"[SMF]", "color": "aqua"}, {"text": " Running ", "color": "white"}, {"text": "development build #", "color": "light_purple", "extra": [{"score": {"name": "$vdev", "objective": "smf_module"}}]}, {"text": " of the module.", "color": "white"}]
+tellraw @a[tag=smf.admin] [{"text": "[SMF]", "color": "aqua"}, {"text": " Module has been ", "color": "white"}, {"text": "installed", "color": "green"}, {"text": ".", "color": "white"}]
 
 playsound minecraft:entity.player.levelup player @s ~ ~ ~ 1 2 0.5
 
-function smf:module/validate
+function smf:module/scan

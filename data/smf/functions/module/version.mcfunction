@@ -1,7 +1,6 @@
 # smf:module/version
 
-scoreboard players set $vmajor smf_module 0
-scoreboard players set $vminor smf_module 3
-scoreboard players set $vpatch smf_module 0
-
-scoreboard players set $vdev smf_module 0
+scoreboard players set $vmajor smf_temp 0
+scoreboard players set $vminor smf_temp 4
+scoreboard players set $vpatch smf_temp 0
+scoreboard players set $vdev smf_temp 1
