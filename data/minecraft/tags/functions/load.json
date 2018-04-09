@@ -1,5 +1,5 @@
 {
     "values": [
-        "smf_template:module/api/load"
+        "smf:module/api/load"
     ]
 }

@@ -1,3 +1,9 @@
+# v0.3.0-dev
+- Use SMF v0.3.0
+- Change naming scheme (again) from `SMF Template` to `SMF` to implement core utilities under a suitable namespace
+    - Change namespace from `smf_template` to just `smf`
+    - Change prefix from `smft` back to `smf`
+
 # v0.2.0
 - Use SMF v0.2.0
 - Add a fourth version component to denote dev builds

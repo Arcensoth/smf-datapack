@@ -1,13 +1,13 @@
-# SMF Template
-Standard Module Format exemplary template pack.
+# SMF
+Standard module format: so many functions, so much fun!
 
 Field           | Value
 --------------- | -----
 Category        | Utility
-Namespace       | `smf_template`
-Prefix          | `smft`
+Namespace       | `smf`
+Prefix          | `smf`
 
 ## Scoreboard objectives
 Objective       | Criteria  | Usage     | Description
 --------------- | --------- | --------- | -----------
-`smft_module`   | `dummy`   | Read-only | Reserved for SMF.
+`smf_module`    | `dummy`   | Read-only | Reserved for SMF.
