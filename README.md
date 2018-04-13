@@ -1,5 +1,5 @@
 # SMF
-Standard module format: so many functions, so much fun!
+So many functions, so much fun!
 
 Field           | Value
 --------------- | -----

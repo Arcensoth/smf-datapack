@@ -1,3 +1,12 @@
+# v0.5.0-dev
+- **Use SMF v0.5.0:**
+    - Run API setup function before initializing SMF protocol variables
+        - Helps prevent SMF-compliant packs from accidentally polluting these values
+        - Fixes SMF temp objective being created too late for the SMF pack itself
+- Adjust motto to eliminate any suggested meaning of a certain acronym
+- Use real RNG for splash text selection
+- Add to the pool of possible splashes
+
 # v0.4.0
 - Use SMF v0.4.0
 - Implement `module/list` function to list module version and installation status
