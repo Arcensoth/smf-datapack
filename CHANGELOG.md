@@ -1,4 +1,4 @@
-# v0.5.0-dev
+# v0.5.0
 - **Use SMF v0.5.0:**
     - Run API setup function before initializing SMF protocol variables
         - Helps prevent SMF-compliant packs from accidentally polluting these values
