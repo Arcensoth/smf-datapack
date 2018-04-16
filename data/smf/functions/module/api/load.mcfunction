@@ -2,5 +2,5 @@
 
 # If you need to do anything when the datapack is (re)loaded, this is the place.
 
-function smf:etc/splash
-function smf:scan
+execute as @a[tag=smf.admin] at @s run function smf:etc/splash
+execute as @a[tag=smf.admin] at @s run function smf:scan

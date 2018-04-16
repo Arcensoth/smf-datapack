@@ -5,6 +5,7 @@
     - Change message format for list and scan functions
     - Use a global `temp` objective rather than something owned by SMF
     - Check if module is installed before uninstalling
+    - Don't depend on `smf.admin` tag for messages
     - TODO Force consistent reload and function tag order
 - Play a sound after reloading
 
