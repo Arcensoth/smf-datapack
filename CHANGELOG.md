@@ -1,3 +1,12 @@
+# v0.6.0-dev
+- **Use SMF v0.6.0:**
+    - Focus on the active version of the module rather than the installed version
+    - Consider dev build number when asserting version equality
+    - Change message format for list and scan functions
+    - TODO Use a global `temp` objective rather than something owned by SMF
+    - TODO Force consistent reload and function tag order
+- Play a sound after reloading
+
 # v0.5.0
 - **Use SMF v0.5.0:**
     - Run API setup function before initializing SMF protocol variables
