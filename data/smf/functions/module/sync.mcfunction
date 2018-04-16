@@ -1,7 +1,6 @@
 # smf:module/sync
 
-function smf:module/installed
-function smf:module/version
+function smf:module/values
 
 # assume unsynced
 scoreboard players set $sync temp 0

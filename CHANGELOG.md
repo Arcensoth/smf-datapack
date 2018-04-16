@@ -4,8 +4,7 @@
     - Consider dev build number when asserting version equality
     - Change message format for list and scan functions
     - Use a global `temp` objective rather than something owned by SMF
-    - Use scoreboard instead of an entity for installation assertion
-    - TODO Check for module presence before uninstalling
+    - Check if module is installed before uninstalling
     - TODO Force consistent reload and function tag order
 - Play a sound after reloading
 
