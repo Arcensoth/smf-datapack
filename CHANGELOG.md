@@ -3,7 +3,9 @@
     - Focus on the active version of the module rather than the installed version
     - Consider dev build number when asserting version equality
     - Change message format for list and scan functions
-    - TODO Use a global `temp` objective rather than something owned by SMF
+    - Use a global `temp` objective rather than something owned by SMF
+    - TODO Use scoreboard instead of entities for autoinstallation
+    - TODO Check for module presence before uninstalling
     - TODO Force consistent reload and function tag order
 - Play a sound after reloading
 

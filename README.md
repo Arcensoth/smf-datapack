@@ -11,7 +11,6 @@ Prefix          | `smf`
 Objective       | Criteria  | Usage     | Description
 --------------- | --------- | --------- | -----------
 `smf_module`    | `dummy`   | Read-only | Reserved for SMF.
-`smf_temp`      | `dummy`   | Writeable | Public space for intermediate calculations using temporary (sub-tick) values.
 
 ## Entity tags
 Tag         | Description

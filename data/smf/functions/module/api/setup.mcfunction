@@ -4,5 +4,3 @@
 #   - Adding and initializing scoreboard objectives and teams.
 #   - Summoning persistent entities.
 #   - Creating bossbars.
-
-scoreboard objectives add smf_temp dummy
