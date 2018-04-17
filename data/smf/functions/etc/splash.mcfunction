@@ -38,4 +38,4 @@ execute if score $rand temp matches 20 run tellraw @s [{"text": "[SMF]", "color"
 execute if score $rand temp matches 21 run tellraw @s [{"text": "[SMF]", "color": "aqua"}, {"text": " ┬─┬ ノ( ゜-゜ノ)", "color": "yellow"}]
 
 # play a sound
-playsound minecraft:entity.player.levelup player @s ~ ~ ~ 1 2 0.5
+playsound minecraft:block.enchantment_table.use player @s ~ ~ ~ 1.0 1.25

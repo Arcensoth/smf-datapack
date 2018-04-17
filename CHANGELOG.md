@@ -6,8 +6,8 @@
     - Use a global `temp` objective rather than something owned by SMF
     - Check if module is installed before uninstalling
     - Don't depend on `smf.admin` tag for messages
-    - TODO Force consistent reload and function tag order
-- Play a sound after reloading
+    - Play sound on error
+- Play a sound after reloading as part of the splash
 
 # v0.5.0
 - **Use SMF v0.5.0:**

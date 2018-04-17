@@ -11,3 +11,5 @@ execute if score $active temp matches 1.. if score $vmajor temp matches 0.. if s
 
 # warn if unmet
 execute if score $depend temp matches ..0 run tellraw @s [{"text":"[SMF]", "color": "aqua"}, {"text": " Uh oh! Missing dependency ", "color": "red"}, {"text": "another_module", "color": "dark_red"}, {"text": " or the wrong version is active.", "color": "red"}]
+
+execute if score $depend temp matches ..0 run playsound minecraft:block.end_portal_frame.fill player @s ~ ~ ~ 2.0 0.5
