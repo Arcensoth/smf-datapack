@@ -1,4 +1,4 @@
-# v0.6.0-dev
+# v0.6.0
 - **Use SMF v0.6.0:**
     - Focus on the active version of the module rather than the installed version
     - Consider dev build number when asserting version equality
