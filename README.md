@@ -10,7 +10,7 @@ Prefix          | `smf`
 ## Scoreboard objectives
 Objective       | Criteria  | Usage     | Description
 --------------- | --------- | --------- | -----------
-`smf_module`    | `dummy`   | Read-only | Reserved for SMF.
+`smf.module`    | `dummy`   | Read-only | Reserved for SMF.
 
 ## Entity tags
 Tag         | Description

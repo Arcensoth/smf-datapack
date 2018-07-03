@@ -1,6 +1,6 @@
 # smf:module/forceuninstall
 
-scoreboard objectives remove smf_module
+scoreboard objectives remove smf.module
 
 function smf:module/api/teardown
 

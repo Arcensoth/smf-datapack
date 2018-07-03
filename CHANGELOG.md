@@ -1,4 +1,6 @@
-# v0.6.1-dev
+# v0.7.0-dev
+- **Use SMF v0.7.0:**
+  - Rename objectives to use `.` instead of `_` for namespace separator
 - Adjust splash texts
 
 # v0.6.0
