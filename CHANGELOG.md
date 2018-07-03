@@ -1,3 +1,6 @@
+# v0.6.1-dev
+- Adjust splash texts
+
 # v0.6.0
 - **Use SMF v0.6.0:**
     - Focus on the active version of the module rather than the installed version
