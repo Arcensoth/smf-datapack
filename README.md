@@ -1,11 +1,11 @@
 # SMF
 SMF core utilities and exemplary pack.
 
-Field           | Value
---------------- | -----
-Category        | Utility
-Namespace       | `smf`
-Scorespace      | `smf`
+Field       | Value
+----------- | -----
+Category    | Utility
+Namespace   | `smf`
+Scorespace  | `smf`
 
 ## Scoreboard objectives
 Objective       | Criteria  | Usage     | Description
