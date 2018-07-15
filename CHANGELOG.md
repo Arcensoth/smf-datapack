@@ -1,6 +1,7 @@
 # v0.7.0-dev
 - **Use SMF v0.7.0:**
   - Rename objectives to use `.` instead of `_` for namespace separator
+  - Rename `Prefix` to `Scorespace`
 - Adjust splash texts
 - Get a serious description
 

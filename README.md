@@ -5,7 +5,7 @@ Field           | Value
 --------------- | -----
 Category        | Utility
 Namespace       | `smf`
-Prefix          | `smf`
+Scorespace      | `smf`
 
 ## Scoreboard objectives
 Objective       | Criteria  | Usage     | Description
