@@ -1,5 +1,5 @@
 # SMF
-So many functions, so much fun!
+SMF core utilities and exemplary pack.
 
 Field           | Value
 --------------- | -----
