@@ -7,18 +7,19 @@ Category    | Utility
 Namespace   | `smf`
 Scorespace  | `smf`
 
-## Scoreboard objectives
+## Scoreboard
+### Objectives
 Objective       | Criteria  | Usage     | Description
 --------------- | --------- | --------- | -----------
 `smf.module`    | `dummy`   | Read-only | Reserved for SMF.
 
-## Entity tags
-Tag         | Description
+## Entity Tags
+Entity Tag  | Description
 ----------- | -----------
 `smf.debug` | Present on players who are debugging the module.
 `smf.admin` | Present on players who are administrating modules.
 
-## Event hooks
+## Event Hooks
 Function Tag        | Context   | Conditions
 ------------------- | --------- | -----------
 `#smf:hooks/list`   | Self      | Whenever `smf:list` is invoked.
