@@ -1,5 +1,5 @@
 {
     "values": [
-        "smf:module/api/load"
+        "smf:module/reload"
     ]
 }

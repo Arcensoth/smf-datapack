@@ -1,5 +1,8 @@
 # v0.7.0-dev
 - **Use SMF v0.7.0:**
+  - Improve reloading mechanism by introducing `module/reload`
+    - Calls `module/api/load`, replacing it in `minecraft:tick`
+    - Ensures that the `temp` objective is created
   - Rename objectives to use `.` instead of `_` for namespace separator
   - Rename `Prefix` to `Scorespace`
 - Adjust splash texts
