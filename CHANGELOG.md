@@ -1,5 +1,6 @@
 # v0.7.0-dev
 - **Use SMF v0.7.0:**
+  - Install module on reload
   - Improve reloading mechanism by introducing `module/reload`
     - Calls `module/api/load`, replacing it in `minecraft:tick`
     - Ensures that the `temp` objective is created
