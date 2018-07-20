@@ -1,4 +1,4 @@
-# v0.7.0-dev
+# v0.7.0
 - **Use SMF v0.7.0:**
   - Install module on reload
   - Improve reloading mechanism by introducing `module/reload`
