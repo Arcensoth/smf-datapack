@@ -4,6 +4,9 @@
   - Improve reloading mechanism by introducing `module/reload`
     - Calls `module/api/load`, replacing it in `minecraft:tick`
     - Ensures that the `temp` objective is created
+  - Introduce `module/about` and API functions
+    - `module/api/authors` to print authors, one per line
+    - `module/api/extras` to print additional information
   - Adjust `pack.mcmeta` format and include author(s)
   - Rename objectives to use `.` instead of `_` for namespace separator
   - Rename `Prefix` to `Scorespace`
