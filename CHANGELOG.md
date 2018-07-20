@@ -10,6 +10,7 @@
   - Adjust `pack.mcmeta` format and include author(s)
   - Rename objectives to use `.` instead of `_` for namespace separator
   - Rename `Prefix` to `Scorespace`
+- Add `about` function/hook
 - Adjust splash texts
 - Get a serious description
 
