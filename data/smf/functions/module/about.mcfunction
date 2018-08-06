@@ -17,3 +17,6 @@ function smf:module/api/authors
 
 # extras
 function smf:module/api/extras
+
+# sound
+playsound minecraft:block.enchantment_table.use player @s ~ ~ ~ 2.0 1.25

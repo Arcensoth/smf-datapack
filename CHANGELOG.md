@@ -3,6 +3,7 @@
   - [TENTATIVE] Use temp objective to detect installation, not a temp entity
   - [TENTATIVE] Modules don't need a 'module' objective, just use temp objective with scorespaced fakeplayer
   - Change error sound
+  - Add sound to about function
 - Change splash sound
 
 # v0.7.0
