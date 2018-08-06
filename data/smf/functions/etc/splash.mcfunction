@@ -38,4 +38,4 @@ execute if score $rand temp matches 20 run tellraw @s [{"text": "[SMF]", "color"
 execute if score $rand temp matches 21 run tellraw @s [{"text": "[SMF]", "color": "aqua"}, {"text": " ┬─┬ ノ( ゜-゜ノ)", "color": "yellow"}]
 
 # play a sound
-playsound minecraft:block.enchantment_table.use player @s ~ ~ ~ 1.0 1.25
+playsound minecraft:block.beacon.power_select player @s ~ ~ ~ 2.0 1.5
