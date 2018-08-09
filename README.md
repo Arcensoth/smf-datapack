@@ -8,7 +8,6 @@ Namespace   | `smf`
 Scorespace  | `smf`
 
 ## Scoreboard
-### Objectives
 Objective       | Criteria  | Usage     | Description
 --------------- | --------- | --------- | -----------
 `smf.module`    | `dummy`   | Read-only | Reserved for SMF.
