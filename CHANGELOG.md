@@ -1,4 +1,4 @@
-# v0.9.0-dev
+# v0.9.0
 - **Use SMF v0.9.0:**
   - Simplify installation detection by using temp objective
 
