@@ -1,7 +1,6 @@
 # v0.9.0-dev
 - **Use SMF v0.9.0:**
   - [TENTATIVE] Use temp objective to detect installation, not a temp entity
-  - [TENTATIVE] Modules don't need a 'module' objective, just use temp objective with scorespaced fakeplayer
 
 # v0.8.0
 - **Use SMF v0.8.0:**
