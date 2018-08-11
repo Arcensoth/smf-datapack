@@ -1,6 +1,6 @@
 # v0.9.0-dev
 - **Use SMF v0.9.0:**
-  - [TENTATIVE] Use temp objective to detect installation, not a temp entity
+  - Simplify installation detection by using temp objective
 
 # v0.8.0
 - **Use SMF v0.8.0:**

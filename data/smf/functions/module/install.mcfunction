@@ -1,6 +1,5 @@
 # smf:module/install
 
-execute if score $installed smf.module matches 1.. run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["smf.temp.installed"]}
-execute unless entity @e[tag=smf.temp.installed] run function smf:module/forceinstall
-execute if entity @e[tag=smf.temp.installed] run tellraw @s [{"text":"[SMF]", "color": "aqua"}, {"text": " Module already installed.", "color": "white"}]
-kill @e[tag=smf.temp.installed]
+execute store success score $installed temp if score $installed smf.module matches 1..
+execute if score $installed temp matches 1.. run tellraw @s [{"text":"[SMF]", "color": "aqua"}, {"text": " Module already installed.", "color": "white"}]
+execute unless score $installed temp matches 1.. run function smf:module/forceinstall
