@@ -1,7 +1,7 @@
 {
   "title": "SMF",
   "description": "SMF core utilities and exemplary pack.",
-  "version": "0.10.0-dev",
+  "version": "0.10.0",
   "namespace": "smf",
   "scorespace": "smf",
   "authors": {

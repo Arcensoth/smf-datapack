@@ -1,4 +1,4 @@
-# v0.10.0-dev
+# v0.10.0
 - **Use SMF v0.10.0:**
   - Introduce `.module.json` for metadata definitions
   - Move authors function out of API
