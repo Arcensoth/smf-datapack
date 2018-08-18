@@ -1,0 +1,11 @@
+{
+  "title": "SMF",
+  "description": "SMF core utilities and exemplary pack.",
+  "version": "0.10.0-dev",
+  "namespace": "smf",
+  "scorespace": "smf",
+  "authors": {
+    "Arcensoth": "https://github.com/Arcensoth"
+  },
+  "smf_version": "0.10.0"
+}
