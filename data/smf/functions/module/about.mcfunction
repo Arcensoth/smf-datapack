@@ -13,7 +13,7 @@ execute if score $vdev temp matches 1.. run tellraw @s [{"text":"[SMF]", "color"
 
 # authors
 tellraw @s [{"text":"[SMF]", "color": "aqua"}, {"text": " Authors:", "color": "gray"}]
-function smf:module/api/authors
+function smf:module/authors
 
 # extras
 function smf:module/api/extras
