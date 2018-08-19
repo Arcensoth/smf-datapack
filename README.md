@@ -19,7 +19,8 @@ Entity Tag  | Description
 `smf.admin` | Present on players who are administrating modules.
 
 ## Event Hooks
-Function Tag        | Context   | Conditions
-------------------- | --------- | -----------
-`#smf:hooks/list`   | Self      | Whenever `smf:list` is invoked.
-`#smf:hooks/scan`   | Self      | Whenever `smf:scan` is invoked.
+Function Tag        | Description
+------------------- | -----------
+`#smf:hooks/about`  | Run whenever a player runs `smf:about`. Use this to tag your `module/about` function.
+`#smf:hooks/list`   | Run whenever a player runs `smf:list`. Use this to tag your `module/list` function.
+`#smf:hooks/scan`   | Run whenever a player runs `smf:scan`. Use this to tag your `module/scan` function.
