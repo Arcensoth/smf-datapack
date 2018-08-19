@@ -1,11 +1,13 @@
 {
   "title": "SMF",
   "description": "SMF core utilities and exemplary pack.",
-  "version": "0.10.0",
+  "version": "0.11.0-dev",
+  "category": "Utility",
   "namespace": "smf",
   "scorespace": "smf",
+  "repository": "https://github.com/Arcensoth/smf-datapack",
   "authors": {
     "Arcensoth": "https://github.com/Arcensoth"
   },
-  "smf_version": "0.10.0"
+  "smf_version": "0.11.0"
 }

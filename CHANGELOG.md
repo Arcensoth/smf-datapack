@@ -1,3 +1,7 @@
+# v0.11.0-dev
+- **Use SMF v0.11.0:**
+  - Add `category` and `repository` to metadata
+
 # v0.10.0
 - **Use SMF v0.10.0:**
   - Introduce `.module.json` for metadata definitions
