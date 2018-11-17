@@ -6,8 +6,8 @@
   "namespace": "smf",
   "scorespace": "smf",
   "repository": "https://github.com/Arcensoth/smf-datapack",
-  "authors": {
-    "Arcensoth": "https://github.com/Arcensoth"
-  },
+  "authors": [
+    { "name": "Arcensoth", "url": "https://github.com/Arcensoth" }
+  ],
   "smf_version": "0.11.0"
 }
