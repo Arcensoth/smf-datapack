@@ -1,6 +1,7 @@
 # v0.11.0-dev
 - **Use SMF v0.11.0:**
   - Add `category` and `repository` to metadata
+  - Add `minecraft_version` to metadata and reflect this in pack.mcmeta
 
 # v0.10.0
 - **Use SMF v0.10.0:**
