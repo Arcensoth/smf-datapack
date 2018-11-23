@@ -1,4 +1,4 @@
-# v0.11.0-dev
+# v0.11.0
 - **Use SMF v0.11.0:**
   - Add `category` and `repository` to metadata
   - Adjust pack author definition
