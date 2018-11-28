@@ -1,7 +1,7 @@
 {
   "title": "SMF",
-  "description": "SMF core utilities and exemplary pack.",
-  "version": "0.11.0",
+  "description": "SMF exemplary module and core utilities.",
+  "version": "0.12.0-dev",
   "category": "Utility",
   "namespace": "smf",
   "scorespace": "smf",
@@ -9,6 +9,6 @@
   "authors": [
     { "name": "Arcensoth", "url": "https://github.com/Arcensoth" }
   ],
-  "smf_version": "0.11.0",
-  "minecraft_version": "1.13+"
+  "smf_version": "0.12.0",
+  "minecraft_version": "1.14+"
 }

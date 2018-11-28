@@ -1,5 +1,5 @@
 # SMF
-SMF core utilities and exemplary pack.
+SMF exemplary module and core utilities.
 
 Field       | Value
 ----------- | -----
